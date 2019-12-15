@@ -18,7 +18,9 @@ The exact logic and "rules" of this population model can be found in more detail
 ## Prerequesits
 
 Before this project can be ran, a suitable python enivironment must first be in place. This project was used using the data science platform Anaconda. This package is free and includes the integrated development environment Spyder 3.3.6 on which this project was written. A installation guide to Anaconda alongside installation instructions can be found here: 
-[install guide](https://docs.anaconda.com/anaconda/install/windows/ "")
+[install guide](https://docs.anaconda.com/anaconda/install/windows/ "").
+
+This model scrapes the initial locations for the sheep agents from the web. Due to this a suitable web connection is advised although in it absense these starting locations will be randomly generated.
 
 
 ## Installation
