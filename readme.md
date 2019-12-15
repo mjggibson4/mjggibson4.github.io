@@ -81,11 +81,11 @@ Select the Model and Click Run. A within the canvas of the window, the agents wi
 
 ## Standards
 
-This model has been produced in Python 3.7. The code has been produced to adhere to Google Python standards. The full details of this style can be found here. 
+This model has been produced in Python 3.7. The code has been produced to adhere to Google Python standards. The full details of this style can be found [here](http://google.github.io/styleguide/pyguide.html ""
 
 ## Troubleshooting
 
-
+In the case of errors within this program please check the troubleshooting file which can be located here: 
 
 
 
