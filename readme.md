@@ -61,11 +61,14 @@ Asks the user to input 6 parameters which will influence the behaviour of the mo
 
 * Number of Sheep - The initial number of sheep agents to be placed in the model
 * Number of Wolves - The initial number of wolf agents to be placed in the model
-Neighbourhood - The distance at which sheep are allowed to share resources
-Number of Iterations - The number of iterations for which the model will run
-Wolf Threshold - The number of sheep needed to be eaten by a wolf in order for it to reproduce
-Sheep Threshold - The amount of units of environment needed to be consumed by a sheep in order for it to reproduce
+* Neighbourhood - The distance at which sheep are allowed to share resources
+* Number of Iterations - The number of iterations for which the model will run
+* Wolf Threshold - The number of sheep needed to be eaten by a wolf in order for it to reproduce
+* Sheep Threshold - The amount of units of environment needed to be consumed by a sheep in order for it to reproduce
 
+
+![alt text](https://github.com/mjggibson4/mjggibson4.github.io/blob/master/ParameterMenu.png "Logo Title Text 1")
+ 
 Once these parameters have been defined, click apply. These parameters must be postive integers and an internal check occurs to verify this is the case. If this is not the case, a warning is displayed on the screen.
 
 ## Standards
