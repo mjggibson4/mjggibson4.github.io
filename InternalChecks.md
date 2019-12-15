@@ -1,7 +1,7 @@
-#Troubleshooting/Internal Checks
+# Troubleshooting/Internal Checks
 
 ## Purpose
-This file documents the internal checks that occur within the code of the population model project in order to ensure that it functions correctly.
+This file documents the internal checks that occur within the code of the population model project in order to ensure that it functions correctly. This document should also be used for troubleshooting purposes.
 
 ## User Inputs
 Within this model the user is asked to input values for six variables:
