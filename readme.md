@@ -10,7 +10,8 @@ The exact logic and "rules" of this population model can be found in more detail
 
 1. Prerequisites
 2. Installation
-3. Usage
+3. Initialising Program
+4. Running Program
 4. Standards
 4. Known Issues
 5. Acknowledgements
@@ -25,11 +26,11 @@ This model scrapes the initial locations for the sheep agents from the web. Due 
 
 ## Installation
 
-This project consists of 3 python scripts which should be downloaded from the github repository found here: [Practical 1 Repo](https://github.com/mjggibson4/Practical1 ""). These files should be saved to the users desktop
+This project consists of 3 python scripts and one text file which should be downloaded from the github repository found here: [Practical 1 Repo](https://github.com/mjggibson4/Practical1 ""). These files should be saved to the users desktop
 
 ## Project Structure
 
-The three files contained within this project have their own unique function.
+The three script files contained within this project have their own unique function.
 
 GUI:  Sets up the graphical user interfaces from which the program is run. This interface allows for the initial parameters of the model to be edited as neccesary. 
 
@@ -37,7 +38,7 @@ Maincode: Define the logic behind the model itself.
 
 Framework: Contains the classes from which the agents are defined. This framework dictates the behaviours of the agents such as how they move, eat and reproduce. 
 
-## Usage
+## Initialising Program
 
 This model can be initilised in one of two manners:
 
@@ -54,8 +55,18 @@ This model can be initilised in one of two manners:
 Either of these methods should result in the GUI for the population model being presented as displayed below
 
 
+## Running Program
 
+Asks the user to input 6 parameters which will influence the behaviour of the model. These parameters are listed below alongside a brief explaination of what they represent in regards to the model.
 
+Number of Sheep - The initial number of sheep agents to be placed in the model
+Number of Wolves - The initial number of wolf agents to be placed in the model
+Neighbourhood - The distance at which sheep are allowed to share resources
+Number of Iterations - The number of iterations for which the model will run
+Wolf Threshold - The number of sheep needed to be eaten by a wolf in order for it to reproduce
+Sheep Threshold - The amount of units of environment needed to be consumed by a sheep in order for it to reproduce
+
+Once these parameters have been defined, click apply. These parameters must be postive integers and an internal check occurs to verify this is the case. If this is not the case, a warning is displayed on the screen.
 
 ## Standards
 
