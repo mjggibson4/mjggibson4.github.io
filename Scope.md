@@ -33,7 +33,10 @@ To reflect this extended scope, the GUI should be updated to allow the user to h
 
 ## Future Developments
 
+The following changes could be made to the current project to make it move reflective of reality and more useful in general.
+
 * Place a energy cost of moving within the domain by removing a set amount from an agents store on each move
 * Remove agents whose energy store is at 0
 * Randomly remove agents to simulate natural deaths within a population
 * Introduce disease to the model. Set a defined agent as being infected and allow this agent to pass the infection on to agents within a defined distance.
+* Record the number of agents and display this within an animated graph
