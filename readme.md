@@ -59,8 +59,8 @@ Either of these methods should result in the GUI for the population model being 
 
 Asks the user to input 6 parameters which will influence the behaviour of the model. These parameters are listed below alongside a brief explaination of what they represent in regards to the model.
 
-Number of Sheep - The initial number of sheep agents to be placed in the model
-Number of Wolves - The initial number of wolf agents to be placed in the model
+* Number of Sheep - The initial number of sheep agents to be placed in the model
+* Number of Wolves - The initial number of wolf agents to be placed in the model
 Neighbourhood - The distance at which sheep are allowed to share resources
 Number of Iterations - The number of iterations for which the model will run
 Wolf Threshold - The number of sheep needed to be eaten by a wolf in order for it to reproduce
