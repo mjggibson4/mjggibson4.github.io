@@ -4,6 +4,8 @@
 
 This python based project a basic agents based model of predator prey dynamics. This this scenario these two competing agents have been defined as the of sheep and wolves. These agents move randomly around a defined domain and are allowed to interact with one another. In particular, these sheep agents "graze" their spatial eniviroment while the wolves if close enough consume these sheep. Both of these agents reproduce dependent on the resources on which they have consumed. This model provides a visual representation of these spatial dynamics and behaviours.
 
+The exact logic and "rules" of this population model can be found in more detail here:
+
 ## Table of Contents
 
 1. Prerequisites
@@ -35,17 +37,30 @@ Framework: Contains the classes from which the agents are defined. This framewor
 
 ## Usage
 
-### From command line
+This model can be initilised in one of two manners:
+
+### Option A: From command line
 1. Right click on the Desktop.
 2. Select Open New Command Window Here
 3. Type python GUI.py
 4. Press enter
 
-### From IDE
+### Option B: From IDE
 1. Open the file GUI in Spyder
 2. Press Run
 
-## Installation
+Either of these methods should result in the GUI for the population model being presented as displayed below
+
+
+
+
+
+## Standards
+
+This model has been produced in Python 3.7. The code has been produced to adhere to Google Python standards. The full details of this style can be found here. 
+
+## Troubleshooting
+
 
 
 
