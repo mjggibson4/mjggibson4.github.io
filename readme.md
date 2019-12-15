@@ -57,7 +57,9 @@ Either of these methods should result in the GUI for the population model being 
 
 ## Running Program
 
-Asks the user to input 6 parameters which will influence the behaviour of the model. These parameters are listed below alongside a brief explaination of what they represent in regards to the model.
+1. Open Parameters Menu
+
+Click menu and then "Set Parameters". This produces a window in which the user is asked to input 6 parameters which will influence the behaviour of the model. These parameters are listed below alongside a brief explaination of what they represent in regards to the model.
 
 * Number of Sheep - The initial number of sheep agents to be placed in the model
 * Number of Wolves - The initial number of wolf agents to be placed in the model
@@ -70,6 +72,10 @@ Asks the user to input 6 parameters which will influence the behaviour of the mo
 ![alt text](https://github.com/mjggibson4/mjggibson4.github.io/blob/master/ParameterMenu.png "Logo Title Text 1")
  
 Once these parameters have been defined, click apply. These parameters must be postive integers and an internal check occurs to verify this is the case. If this is not the case, a warning is displayed on the screen.
+
+2. Run the Model
+
+Select the Model and Click Run. A within the canvas of the window, the agents will be observed moving around the domain.
 
 ## Standards
 
