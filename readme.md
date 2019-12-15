@@ -59,7 +59,7 @@ Either of these methods should result in the GUI for the population model being 
 
 ## Running Program
 
-1. Open Parameters Menu
+### Open Parameters Menu
 
 Click menu and then "Set Parameters". This produces a window in which the user is asked to input 6 parameters which will influence the behaviour of the model. These parameters are listed below alongside a brief explaination of what they represent in regards to the model.
 
@@ -75,7 +75,7 @@ Click menu and then "Set Parameters". This produces a window in which the user i
  
 Once these parameters have been defined, click apply. These parameters must be postive integers and an internal check occurs to verify this is the case. If this is not the case, a warning is displayed on the screen.
 
-2. Run the Model
+###  Run the Model
 
 Select the Model and Click Run. A within the canvas of the window, the agents will be observed moving around the domain.
 
