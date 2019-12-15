@@ -24,11 +24,11 @@ Before this project can be executed, a suitable python enivironment must first b
 This model scrapes the initial locations for the sheep agents from the web. Due to this a suitable web connection is advised although in it absense these starting locations will be randomly generated.
 
 
-## Installation
+## 1 Installation
 
 This project consists of 3 python scripts and one text file which should be downloaded from the github repository found here: [Practical 1 Repo](https://github.com/mjggibson4/Practical1 ""). These files should be saved to the users desktop
 
-## Project Structure
+## 2 Project Structure
 
 The three script files contained within this project have their own unique function.
 
@@ -40,7 +40,7 @@ Framework: Contains the classes from which the agents are defined. This framewor
 
 In.txt: Defines the environment in which the agents interact with
 
-## Initialising the Program
+## 3 Initialising the Program
 
 This model can be initilised in one of two manners:
 
@@ -57,7 +57,7 @@ This model can be initilised in one of two manners:
 Either of these methods should result in the GUI for the population model being presented as displayed below
 
 
-## Running Program
+## 4 Running Program
 
 ### Open Parameters Menu
 
@@ -79,16 +79,16 @@ Once these parameters have been defined, click apply. These parameters must be p
 
 Select the Model and Click Run. A within the canvas of the window, the agents will be observed moving around the domain.
 
-## Standards
+## 5 Standards
 
 This model has been produced in Python 3.7. The code has been produced to adhere to Google Python standards. The full details of this style can be found [here](http://google.github.io/styleguide/pyguide.html ""
 
-## Troubleshooting
+## 6 Troubleshooting
 
 In the case of errors within this program please check the troubleshooting file which can be located here: 
 
+## Licensing
 
-
-## Acknowledgements
+## 8 Acknowledgements
 
 This project has been produced as part of coursework for the module: Programming for Geographical Information Analysts: Core Skills (WUN).  Exercises and tutorials given within this course have been modified as appropriate and used within the python code for this project. In addition, I'd like to give thanks to my course tutor Andy Turner who helped with issues encountered during development.
