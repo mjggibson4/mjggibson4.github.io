@@ -2,9 +2,9 @@
 
 ## Description
 
-This python based project a basic agents based model of predator prey dynamics. This this scenario these two competing agents have been defined as the of sheep and wolves. These agents move randomly around a defined domain and are allowed to interact with one another. In particular, these sheep agents "graze" their spatial eniviroment while the wolves if close enough consume these sheep. Both of these agents reproduce dependent on the resources on which they have consumed. This model provides a visual representation of these spatial dynamics and behaviours.
+This python based project a simple agents based model of predator prey dynamics. In this scenario these two competing agents have been defined as that of sheep and wolves. These agents move randomly around a defined domain and are allowed to interact with one another. In particular, these sheep agents "graze" their spatial eniviroment while the wolves consume these sheep if close enough. Both of these agents reproduce dependent on the resources on which they have consumed. This model provides a visual representation of these spatial dynamics and behaviours.
 
-The exact logic and "rules" of this population model can be found in more detail here:
+The exact logic and "rules" of this population model can be found in more detail here: Insert Scope Document
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@ The exact logic and "rules" of this population model can be found in more detail
 
 ## Prerequesits
 
-Before this project can be ran, a suitable python enivironment must first be in place. This project was used using the data science platform Anaconda. This package is free and includes the integrated development environment Spyder 3.3.6 on which this project was written. A installation guide to Anaconda alongside installation instructions can be found here: 
+Before this project can be executed, a suitable python enivironment must first be in place. This project was used using the data science platform Anaconda. This package is free and includes the integrated development environment Spyder 3.3.6 on which this project was developed. A installation guide to Anaconda alongside installation instructions can be found here: 
 [install guide](https://docs.anaconda.com/anaconda/install/windows/ "").
 
 This model scrapes the initial locations for the sheep agents from the web. Due to this a suitable web connection is advised although in it absense these starting locations will be randomly generated.
@@ -34,21 +34,23 @@ The three script files contained within this project have their own unique funct
 
 GUI:  Sets up the graphical user interfaces from which the program is run. This interface allows for the initial parameters of the model to be edited as neccesary. 
 
-Maincode: Define the logic behind the model itself.
+Maincode: Defines the logic behind the model itself.
 
 Framework: Contains the classes from which the agents are defined. This framework dictates the behaviours of the agents such as how they move, eat and reproduce. 
 
-## Initialising Program
+In.txt: Defines the environment in which the agents interact with
+
+## Initialising the Program
 
 This model can be initilised in one of two manners:
 
-### Option A: From command line
+#### Option A: From command line
 1. Right click on the Desktop.
 2. Select Open New Command Window Here
 3. Type python GUI.py
 4. Press enter
 
-### Option B: From IDE
+#### Option B: From IDE
 1. Open the file GUI in Spyder
 2. Press Run
 
